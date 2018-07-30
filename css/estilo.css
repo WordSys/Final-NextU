@@ -3,3 +3,18 @@ html{
   font-family: 'Dancing Script', cursive;
   color: white;
 }
+header{
+  background: blue;
+  width: 100%
+}
+h1{
+  background: yellow;
+  width: 40%;
+}
+nav{
+  background: green;
+  width: 40%;
+}
+body{
+  background: lightblue;
+}
