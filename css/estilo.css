@@ -1,20 +1,26 @@
-html{
-  background-color: black;
-  font-family: 'Dancing Script', cursive;
-  color: white;
+body{
+	background: #02010a;
+	color: black;
+	font-size: 16px;
+	font-family: 'Dancing Script', cursive;
+	margin-left: 10em;
+  margin-right: 10em;
 }
 header{
-  background: blue;
-  width: 100%
+	background-color: #5b7989;
+	color: white;
+	border-radius: 10px 10px 0 0;
+	height: 100px;
+	width: 100%;
 }
-h1{
-  background: yellow;
-  width: 40%;
+h1 {
+	width: 50%;
+  font-size: 2em;
+  font-weight: bold;
+	text-shadow: 2px 2px #02010A;
+  float: left;
 }
 nav{
-  background: green;
-  width: 40%;
-}
-body{
-  background: lightblue;
+	width: 50%;
+  float: right;
 }
