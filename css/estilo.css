@@ -50,9 +50,20 @@ img{
 	color: black;
 }
 
+@-webkit-keyframes miAnimacion {
+	0%{
+		margin-top: 150px;
+	}
+	60%{
+		margin-top: -5px;
+	}
+	100%{
+		margin-top: 0px;
+	}
+
+}
+
 @media (min-width: 600px) {
-
-
 
 }
 
@@ -61,6 +72,7 @@ img{
 		width: 100%;
 		background-color: #5b7989;
 		border-radius: 10px 10px 0 0;
+		animation: miAnimacion 5s;
 	}
 
 	h1, nav {
@@ -87,6 +99,16 @@ img{
 		width: 50%;
 		background-color: #d5c75f;
 		text-align: center;
+	}
+
+	.c4 img:hover {
+		transform: rotate(10deg);
+		filter: drop-shadow(2px 2px 2px #82c3a6);
+	}
+
+	.c5 img:hover {
+		transform: translate(20px,-5px);
+		filter: drop-shadow(2px 2px 2px #82c3a6);
 	}
 
 	.c6, .c7, .c8, .c9 {
