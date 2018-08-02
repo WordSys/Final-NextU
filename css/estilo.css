@@ -178,10 +178,6 @@ img{
 		flex-flow: row wrap;
 	}
 
-	.c3, .c4, .c5 {
-		width: 100%;
-	}
-
 	.container {
 		margin: 0;
 		padding: 0;
@@ -243,7 +239,7 @@ img{
 		display: inline-block;
 	}
 
-	.c9{
+	.c9 {
 		border-radius:  0  0 10px 10px;
 	}
 
